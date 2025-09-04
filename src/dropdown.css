@@ -6,10 +6,16 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  border: 1px solid #ccc;
+  top: 32px;
+  border: 1px solid black;
+  background-color: hsl(0, 0%, 98%);
+  border-radius: 2px;
   z-index: 1;
+  padding: 8px;
 }
 
 .dropdown-content.dropdown-open {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
