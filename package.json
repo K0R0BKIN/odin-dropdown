@@ -1,6 +1,6 @@
 {
   "name": "@k0r0bkin/odin-dropdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple dropdown component for vanilla JavaScript.",
   "type": "module",
   "main": "src/dropdown.js",
