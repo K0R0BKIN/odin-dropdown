@@ -1,20 +1,13 @@
 {
   "name": "@k0r0bkin/odin-dropdown",
   "version": "1.0.0",
-  "description": "A simple dropdown component",
+  "description": "A simple dropdown.",
   "type": "module",
   "main": "src/dropdown.js",
   "files": [
     "src/dropdown.js",
     "src/dropdown.css"
   ],
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "author": "Nikita Korobkin",
-  "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.34.0",
     "eslint": "^9.34.0",
@@ -22,5 +15,23 @@
     "prettier": "^3.6.2",
     "vite": "^7.1.2",
     "@fontsource/inter": "^5.2.6"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K0R0BKIN/odin-dropdown.git"
+  },
+  "author": "k0r0bkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/K0R0BKIN/odin-dropdown/issues"
+  },
+  "homepage": "https://github.com/K0R0BKIN/odin-dropdown",
+  "publishConfig": {
+    "access": "public"
   }
 }
